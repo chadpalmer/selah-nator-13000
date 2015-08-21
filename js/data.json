@@ -1,0 +1,84 @@
+{
+  "base_image_path": "images/",
+  "base_video_path": "video/",
+  "base_audio_path": "audio/",
+  "page_content": [
+    {
+      "title": "The Selah-nator 13000",
+      "chatter": "Click on the doors below to enter the Selah-nator zone...if you dare.",
+      "chatter_clicked": "Welcome! You can check out anytime you want but you can never leave",
+      "text": "",
+      "images": [
+        {
+          "name": "selah-frame.png",
+          "type": "image",
+          "classes": "door-image frame"
+        },
+        {
+          "name": "left-door.png",
+          "type": "image",
+          "classes": "door-image left"
+        },
+        {
+          "name": "right-door.png",
+          "type": "image",
+          "classes": "door-image right"
+        },
+        {
+          "name": "selah-intro-dark.png",
+          "type": "image",
+          "classes": "selah-image js-dark"
+        },
+        {
+          "name": "selah-intro.png",
+          "type": "image",
+          "classes": "selah-image js-light"
+        }
+      ],
+      "audio": [
+        {
+          "name": "welcome1",
+          "type": "audio"
+        },
+        {
+          "name": "change",
+          "type": "audio"
+        },
+        {
+          "name": "there",
+          "type": "audio"
+        },
+        {
+          "name": "really",
+          "type": "audio"
+        },
+        {
+          "name": "resist",
+          "type": "audio"
+        },
+        {
+          "name": "aye",
+          "type": "aye"
+        },
+        {
+          "name": "explore",
+          "type": "explore"
+        }
+      ],
+      "video": [
+        {
+          "name": "selah-intro",
+          "type": "video"
+        }
+      ],
+      "credit": "Selah Lokken"
+    },
+    {
+      "name": "Selah Looken",
+      "aliases": "Shadownator, Shadow Ninja, Selah-nator",
+      "age": "Never ask a woman her age silly!",
+      "games": "Planetside 2, Gary's Mod",
+      "level": "13"
+    }
+  ]
+}

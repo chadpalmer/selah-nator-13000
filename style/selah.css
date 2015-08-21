@@ -1,0 +1,72 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 1em;
+    height: 100%;
+    text-align: center;
+}
+
+.js-page-container {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.js-head {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.js-image-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.door-image {
+    cursor: pointer;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+}
+
+.door-image.frame {
+    z-index: 4;
+}
+
+.door-image.left, .door-image.right {
+    z-index: 3;
+}
+
+.js-image-container.open .left {
+    transform: translate(-50%, 0);
+    transition: transform 3000ms ease;
+}
+
+.js-image-container.open .right {
+    transform: translate(50%, 0);
+    transition: transform 3000ms ease;
+}
+
+.selah-image {
+    position: absolute;
+    right: 7.4%;
+}
+
+.selah-image.js-light {
+    opacity: 0;
+}
+
+.selah-image.js-dark {
+    opacity: 0;
+}
+#js-video-player {
+    opacity: 0;
+    position: absolute;
+    right: 7.4%;
+}
+#js-video-player.playing {
+    opacity: 1;
+}
