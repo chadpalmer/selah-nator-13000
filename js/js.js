@@ -138,7 +138,7 @@ objSelah.renderSelahAudio = function (numAudio, blnPlay) {
             objSelah.numIntroAudio = objSelah.numIntroAudio + 1;
         }
     } else {
-
+        objSelah.renderIndex();
     }
 };
 
@@ -161,6 +161,8 @@ objSelah.renderSelahVideo = function (numVideo, blnPlay) {
             objSelah.objVideoPlayer[0].play();
             objSelah.numIntroVideo = objSelah.numIntroVideo + 1;
         }
+    } else {
+        objSelah.renderIndex();
     }
 };
 
